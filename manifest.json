@@ -1,0 +1,59 @@
+{
+  "manifest_version": 2,
+  "name": "cyberdream",
+  "version": "1.0.0",
+  "description": "A dark, high-contrast theme in the cyberdream palette, with a green outline and a grey fill on the active tab.",
+  "theme": {
+    "properties": {
+      "color_scheme": "dark",
+      "content_color_scheme": "dark"
+    },
+    "colors": {
+      "frame": "#16181a",
+      "frame_inactive": "#16181a",
+      "tab_background_text": "#ffffff",
+
+      "tab_selected": "#242627",
+      "tab_text": "#ffffff",
+      "tab_line": "#5eff6c",
+      "tab_loading": "#5eff6c",
+      "tab_background_separator": "#3c4048",
+
+      "toolbar": "#16181a",
+      "toolbar_text": "#ffffff",
+      "bookmark_text": "#ffffff",
+      "icons": "#ffffff",
+      "icons_attention": "#5eff6c",
+      "toolbar_top_separator": "#16181a",
+      "toolbar_bottom_separator": "#16181a",
+      "toolbar_vertical_separator": "#3c4048",
+      "button_background_hover": "rgba(255, 255, 255, 0.08)",
+      "button_background_active": "rgba(255, 255, 255, 0.15)",
+
+      "toolbar_field": "#111214",
+      "toolbar_field_text": "#7b8496",
+      "toolbar_field_border": "#3c4048",
+      "toolbar_field_focus": "#111214",
+      "toolbar_field_text_focus": "#7b8496",
+      "toolbar_field_border_focus": "#5eff6c",
+      "toolbar_field_highlight": "rgba(94, 255, 108, 0.3)",
+      "toolbar_field_highlight_text": "#ffffff",
+
+      "popup": "#16181a",
+      "popup_text": "#ffffff",
+      "popup_border": "#3c4048",
+      "popup_highlight": "#213b26",
+      "popup_highlight_text": "#ffffff",
+
+      "sidebar": "#111214",
+      "sidebar_text": "#ffffff",
+      "sidebar_border": "#16181a",
+      "sidebar_highlight": "#264b2c",
+      "sidebar_highlight_text": "#ffffff",
+
+      "ntp_background": "#16181a",
+      "ntp_card_background": "#1e2124",
+      "ntp_text": "#ffffff"
+    }
+  }
+}
