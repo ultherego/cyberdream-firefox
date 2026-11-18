@@ -3,6 +3,11 @@
   "name": "cyberdream",
   "version": "1.0.0",
   "description": "A dark, high-contrast theme in the cyberdream palette, with a green outline and a grey fill on the active tab.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{71c74194-a106-468f-80cf-b8b25b59886d}"
+    }
+  },
   "theme": {
     "properties": {
       "color_scheme": "dark",

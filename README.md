@@ -23,22 +23,27 @@ It is a plain static theme: one `manifest.json`, no scripts, no permissions.
 
 ## Install
 
-### Try it without installing
+Install it from
+[addons.mozilla.org](https://addons.mozilla.org/firefox/addon/cyberdream-green/),
+where it is listed as **cyberdream green**.
+
+### Try it from source
 
 1. Open `about:debugging#/runtime/this-firefox`.
 2. Click **Load Temporary Add-on…** and pick `manifest.json`.
 
 The theme stays until Firefox is restarted.
 
-### Build an installable package
+### Build the package
 
 ```sh
 zip -j cyberdream.xpi manifest.json
 ```
 
-Release builds of Firefox only install signed add-ons, so sign the package
-through [addons.mozilla.org](https://addons.mozilla.org/developers/) (listed
-or self-distributed) before installing it from `about:addons`.
+Release builds of Firefox only install signed add-ons, so a package you build
+yourself has to be signed through
+[addons.mozilla.org](https://addons.mozilla.org/developers/) under your own
+add-on ID before it can be installed from `about:addons`.
 
 ## Customizing
 
