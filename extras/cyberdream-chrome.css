@@ -1,0 +1,40 @@
+/* cyberdream extras for the Firefox interface (optional).
+ *
+ * A theme can only set colors. This file covers what it cannot: square
+ * corners and a darker hover color for tabs.
+ *
+ * Copy to <profile>/chrome/cyberdream-chrome.css and put this line at the very
+ * top of <profile>/chrome/userChrome.css:
+ *   @import url("cyberdream-chrome.css");
+ * Needs toolkit.legacyUserProfileCustomizations.stylesheets = true. */
+
+:root,
+:host {
+  /* Base radius scale. The circle step is left alone so radio buttons,
+     toggles and avatars stay round. */
+  --border-radius-xsmall: 0px !important;
+  --border-radius-small: 0px !important;
+  --border-radius-medium: 0px !important;
+  --border-radius-large: 0px !important;
+  --border-radius-xlarge: 0px !important;
+
+  /* Parts that set their own radius instead of using the scale. */
+  --button-border-radius: 0px !important;
+  --toolbarbutton-border-radius: 0px !important;
+  --tab-border-radius: 0px !important;
+  --urlbar-border-radius: 0px !important;
+  --urlbar-inner-border-radius: 0px !important;
+  --urlbarview-border-radius: 0px !important;
+  --popup-border-radius: 0px !important;
+  --panel-border-radius: 0px !important;
+  --panel-menuitem-border-radius: 0px !important;
+  --input-search-border-radius: 0px !important;
+
+  /* Hovered tab: between the window color and the active tab. */
+  --tab-background-color-hover: #1d1f21 !important;
+}
+
+/* Corner where the page meets the toolbar and the sidebar. */
+#tabbrowser-tabpanels .browserContainer {
+  --content-area-start-radius: 0px !important;
+}

@@ -1,0 +1,28 @@
+/* cyberdream extras for Firefox's built-in pages (optional).
+ *
+ * Square corners on about: pages such as settings and the add-ons manager.
+ * Websites are not affected.
+ *
+ * Copy to <profile>/chrome/cyberdream-content.css and put this line at the
+ * very top of <profile>/chrome/userContent.css:
+ *   @import url("cyberdream-content.css");
+ * Needs toolkit.legacyUserProfileCustomizations.stylesheets = true. */
+
+@-moz-document url-prefix("about:") {
+  :root,
+  :host {
+    --border-radius-xsmall: 0px !important;
+    --border-radius-small: 0px !important;
+    --border-radius-medium: 0px !important;
+    --border-radius-large: 0px !important;
+    --border-radius-xlarge: 0px !important;
+
+    --button-border-radius: 0px !important;
+    --input-border-radius: 0px !important;
+    --input-search-border-radius: 0px !important;
+    --card-border-radius: 0px !important;
+    --popup-border-radius: 0px !important;
+    --panel-border-radius: 0px !important;
+    --panel-menuitem-border-radius: 0px !important;
+  }
+}
